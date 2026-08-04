@@ -48,7 +48,7 @@ Outra questão é a LGPD que a depender do seu negócio, exige que os dados pess
 
 <img src="https://d2908q01vomqb2.cloudfront.net/4d134bc072212ace2df385dae143139da74ec0ef/2021/01/18/image005.jpg" width="600">
 
-# Prática
+# Aula Prática
 
 <img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*nFxyDwJ2DEH1G5PMKPMj1g.png" width="600">
 
