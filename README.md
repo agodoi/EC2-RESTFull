@@ -198,7 +198,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 incomes = [
-    { 'description': 'salary', 'amount': 12.200 }
+    { 'description': 'salary', 'amount': 15200 }
 ]
 
 @app.route('/incomes')
