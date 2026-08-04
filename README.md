@@ -72,7 +72,7 @@ Nessa aula, vamos usar uma instância EC2 com:
 
   É uma abreviação de Green Unicorn. Trata-se de um servidor HTTP WSGI (Web Server Gateway Interface) para Python. Ele é um ambiente executável de aplicativos da web Python, como aplicativos Django ou Flask. No exemplo de hoje, vamos usar o Flask.
 
-  Para executar um aplicativo Python com o Gunicorn, você normalmente precisa criar um arquivo de configuração, especificando o número de processos que o servidor deve utilizar. O Gunicorn então gerencia esses processos e cuida da comunicação entre o servidor da web e o aplicativo Python. Esse aplicativo será chamado de *index.py* mais para frente. [Clique aqui](https://github.com/agodoi/EC2-RESTFull/tree/main/gunicorn) para conhecer um exemplo didático.
+  Para executar um aplicativo Python com o Gunicorn, você normalmente precisa criar um arquivo de configuração, especificando o número de processos que o servidor deve utilizar. O Gunicorn então gerencia esses processos e cuida da comunicação entre o servidor da web e o aplicativo Python. Esse aplicativo será chamado de *index.py* ```no PASSO 08``` mais para frente. [Clique aqui](https://github.com/agodoi/EC2-RESTFull/tree/main/gunicorn) para conhecer um exemplo didático.
 
 * Flask (backend):
   
