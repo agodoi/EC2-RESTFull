@@ -144,7 +144,7 @@ Atualize sua instância EC2 com os seguintes comandos:
 
 3.1) Dê o comando ```sudo apt-get update``` [enter]
 
-3.2) Dê o comando ```sudo apt-get install python3.12-venv``` [enter]
+3.2) Dê o comando ```sudo apt-get install python3-venv``` [enter]
 
 Caso após a instalação com sucesso, apareça essa tela abaixo, você marca a primeira opção e confirma com [enter].
 Se não aparecer, tudo bem, segue em frente.
