@@ -10,15 +10,15 @@ Nesse encontro, teremos:
 * Prática com Flask (aplicação mínima) hospedada em uma instância EC2 da AWS.
 * Realização de requisições na API desenvolvida.
 
-# Contexto e Ganhos no Projeto da PulseStage/BCG X - Boston Consulting Group
+# Contexto e Ganhos no Projeto da Globoplay
  
-* Sabemos que o problema é desenvolver uma plataforma em nuvem escalável para a venda de ingressos online.
-* O projeto da PulseStage exige alta disponibilidade, escalabilidade horizontal e segurança, além da conectividade via SSH.
+* Sabemos que o problema é desenvolver uma plataforma em nuvem escalável para o sistema de telemetria.
+* O projeto da Globoplay exige alta disponibilidade, escalabilidade horizontal e segurança, além da conectividade via SSH.
 * A prática com EC2 + Flask + Gunicorn + NGINX ensina a base de uma aplicação desacoplada, modular e escalável.
-* O uso do NGINX como proxy reverso e do Gunicorn como WSGI server mostra como separar responsabilidades entre camadas da aplicação, essencial para manter performance durante picos de acesso (exatamente o problema central da PulseStage).
-* A API construída com Flask simula um microsserviço. A prática de criar endpoints REST e manipular requisições HTTP é fundamental para a criação de serviços distribuídos e independentes — base da arquitetura esperada no projeto da PulseStage.
+* O uso do NGINX como proxy reverso e do Gunicorn como WSGI server mostra como separar responsabilidades entre camadas da aplicação, essencial para manter performance durante picos de acesso (exatamente o problema central da Globoplay).
+* A API construída com Flask simula um microsserviço. A prática de criar endpoints REST e manipular requisições HTTP é fundamental para a criação de serviços distribuídos e independentes — base da arquitetura esperada no projeto da Globoplay.
 * Nessa aula, não vamos ver Docker/Kubernetes diretamente, mas essa instrução estrutura a aplicação de forma modular e organizada, facilitando a containerização e orquestração futura.
-* A aplicação pode ser testada via Postman e curl, servindo como base para testes de carga iniciais. Esse é o primeiro passo para implementar as etapas descritas na Prova de Conceito da PulseStage (manipular fila, manter operação sob stress, etc.).
+* A aplicação pode ser testada via Postman e curl, servindo como base para testes de carga iniciais. Esse é o primeiro passo para implementar as etapas descritas na Prova de Conceito da Globoplay (manipular fila, manter operação sob stress, etc.).
 
 # O que é região e zona AWS?
 
